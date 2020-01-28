@@ -1,0 +1,20 @@
+Pseudocode For Task 1.2
+
+DECLARE mName : STRING
+DECLARE IDNo : INTEGER
+
+mName = " "
+IDNo = 0
+
+OPENFILE "D:\mRec.txt" FOR INPUT
+WHILE NOT EOF("D:\mRec.txt")
+
+READFILE "D:\mRec.txt", mName
+READFILE "D:\mRec.txt", IDNo
+
+OUTPUT "Member Name: ", mName
+OUTPUT "Member ID: ", IDNo
+
+ENDWHILE
+
+CLOSEFILE "D:\mRec.txt"

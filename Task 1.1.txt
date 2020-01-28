@@ -1,0 +1,20 @@
+Pseudocode For Task 1.1 
+
+DECLARE mName : STRING
+DECLARE IDNo : INTEGER
+
+mName = " "
+IDNo = 0
+
+INPUT "Enter Member Name: ", mName
+INPUT "Enter Member ID: ", IDNo
+
+OPENFILE "D:\mRec.txt" FOR APPEND
+
+WRITEFILE "D:\mRec.txt", mName
+WRITEFILE "D:\mRec.txt", IDNo
+
+CLOSEFILE "D:\mRec.txt"
+
+
+
